@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 const db = {
-  uri: 'mongodb:localhost:2707/follow-system'
+  uri: 'mongodb://localhost:27017/follow-system'
 }
 
 const opts = {
